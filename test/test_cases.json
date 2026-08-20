@@ -1,0 +1,81 @@
+{
+  "date_component": {
+    "description": "动态日期组件测试",
+    "input": {
+      "format": "full",
+      "customDate": "2023-12-31"
+    },
+    "expected": "2023年12月31日 星期日"
+  },
+  "mindmap_creation": {
+    "description": "思维导图创建测试",
+    "input": {
+      "data": {
+        "root": "主题",
+        "children": [
+          "分支1",
+          "分支2"
+        ]
+      }
+    },
+    "expected": "mindmap_rendered"
+  },
+  "code_execution": {
+    "description": "Python代码执行测试",
+    "input": {
+      "code": "print('Hello, World!')",
+      "language": "python"
+    },
+    "expected": "Hello, World!"
+  },
+  "font_rendering": {
+    "description": "3D字体渲染测试",
+    "input": {
+      "text": "云枢文档",
+      "fontConfig": {
+        "size": 24,
+        "effect": "glow"
+      }
+    },
+    "expected": "font_rendered"
+  },
+  "blockchain_attestation": {
+    "description": "区块链存证测试",
+    "input": {
+      "content": "文档哈希值"
+    },
+    "expected": "tx_hash_received"
+  },
+  "permission_check": {
+    "description": "权限验证测试",
+    "input": {
+      "userId": "user123",
+      "docId": "doc456",
+      "action": "edit"
+    },
+    "expected": "access_denied"
+  },
+  "watermark_generation": {
+    "description": "动态水印测试",
+    "input": {
+      "userInfo": {
+        "name": "张三",
+        "id": "EMP-00123"
+      }
+    },
+    "expected": "watermark_applied"
+  },
+  "incremental_rendering": {
+    "description": "增量渲染测试",
+    "input": {
+      "changes": [
+        {
+          "type": "insert",
+          "position": 10,
+          "text": "新增内容"
+        }
+      ]
+    },
+    "expected": "content_updated"
+  }
+}

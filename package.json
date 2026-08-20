@@ -1,0 +1,19 @@
+{
+    "name": "yyc3-document-system",
+    "version": "1.0.0",
+    "description": "YYC³ 云枢多维文档系统",
+    "main": "api-server.js",
+    "scripts": {
+        "start": "node yyc3-doc-system/IMPLEMENTATION/src/api/api-server.js",
+        "dev": "NODE_ENV=development nodemon yyc3-doc-system/IMPLEMENTATION/src/api/api-server.js",
+        "prod": "NODE_ENV=production node yyc3-doc-system/IMPLEMENTATION/src/api/api-server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    }
+}
